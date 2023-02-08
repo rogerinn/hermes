@@ -5,7 +5,7 @@
 
 <div align="center">
 
-Hermes is a **modular framework** for node.js to make GRPC APIs.
+Hermes is a **modular framework** for node.js to make gRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
 ranging all the way **from college work to corporate level projects**.
@@ -39,7 +39,16 @@ ranging all the way **from college work to corporate level projects**.
 
 ## Overview
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line
+Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
+
+By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
+
+Hermes' core features, being fully compatible with gRPC, are:
+
+- Easy integration
+- Multi-language communication
+- High Performance
+- Trustworthy APIs
 
 ## Motivations and premises
 
