@@ -60,9 +60,17 @@ Hermes' core features, being fully compatible with gRPC, are:
 
 <img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
 
+<br>
+
 ## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
+
+## Architecture
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073362191425740880/arch_test.png" width="700">
+
+<br>
 
 ## Branch flow
 
