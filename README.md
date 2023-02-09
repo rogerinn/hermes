@@ -11,7 +11,6 @@ We follow a *documentation first* philosophy, with the objective of *quality del
 ranging all the way **from college work to corporate level projects**.
 
 [Overview](#overview) •
-[Use cases](#use-cases) •
 [Contributors](#contributors)
 
 <h1 align="center">
