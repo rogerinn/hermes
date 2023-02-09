@@ -1,0 +1,20 @@
+{
+  "name": "hermes",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"https://media.discordapp.net/attachments/638203747608166442/1037551642482053150/hermes-logo-v.1.png\" alt=\"Hermes\" width=\"450\">\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerinn/hermes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerinn/hermes/issues"
+  },
+  "homepage": "https://github.com/rogerinn/hermes#readme"
+}
