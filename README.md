@@ -28,9 +28,17 @@ ranging all the way **from college work to corporate level projects**.
 
 ## Table of contents
 - [Overview](#overview)
-- [Our philosophy]()
-- [Motivations and premises](#motivations-and-premises)
+- [Our motivations](#our-motivations)
+- [How it works](#how-it-works)
+- [Why should you use Hermes?](#why-should-you-use-hermes)
+- [Use cases](#use-cases)
+- [Features](#features)
+- [Technologies used](#technologies-used)
+- [Architecture](#architecture)
+- [Branch flow](#branch-flow)
+- [Roadmap](#roadmap)
 - [Contributors](#contributors)
+- [We thank these people](#we-thank-these-people)
 
 
 ## Overview
@@ -49,12 +57,29 @@ Hermes' core features, being fully compatible with gRPC, are:
 <br>
 <img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
 
-## Motivations and premises
+## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
 
+## How it works
+
+## Why should you use Hermes?
+
+## Use cases
+
+## Features
+
+## Technologies used
+
+## Architecture
+
+## Branch flow
+
+## Roadmap
 
 ## Contributors
 
   - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
   - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
+
+## We thank these people
