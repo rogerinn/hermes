@@ -16,8 +16,10 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: 16
-                  registry-url: https://registry.npmjs.org
-            - name: 🚀 publish
+                  registry-url: https://npm.pkg.github.com/
+            - name: Configure npm
+              run: npm ci
+            - name: Publish
               run: npm publish
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
