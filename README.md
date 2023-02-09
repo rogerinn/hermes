@@ -23,16 +23,22 @@ ranging all the way **from college work to corporate level projects**.
 <br />
 
 <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
- <br>
+
+<br>
+
 </div>
 
 ## Table of contents
-- [Overview](#overview)
-- [Motivations and premises](#motivations-and-premises)
+- [Introduction](#introduction)
+- [Our motivations](#our-motivations)
+- [Architecture](#architecture)
+- [Branch flow](#branch-flow)
+- [Be a part of our comunity!](#be-a-part-of-our-community)
 - [Contributors](#contributors)
+- [We thank these people](#we-thank-these-people)
 
 
-## Overview
+## Introduction
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
@@ -46,14 +52,45 @@ Hermes' core features, being fully compatible with gRPC, are:
 - Trustworthy APIs
 
 <br>
-<img align="center" src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
 
-## Motivations and premises
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
+
+<br>
+
+## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
 
+## Architecture
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073378211364356220/arch_test1.png" width="900">
+
+<br>
+
+## Branch flow
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073368645130006538/branch_flow.png" width="700">
+
+<br>
+
+<div align="center">
+
+## Be a part of our community!
+
+<a href=https://discord.gg/2SxVXAma><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
+</div>
 
 ## Contributors
 
   - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
   - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
+
+## We thank these people
+
+- Andre Junior
+- Cibelli Oliveira
+- Gabriele Jorge
+- Gutem
+- Janaina Centini
+- Marcela Silva
+- Melissa Kilpp
