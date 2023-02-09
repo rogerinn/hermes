@@ -5,6 +5,12 @@
 
 <div align="center">
 
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/rogerinn/hermes?style=flat-square">
+  <img src="https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square">
+   <img src="https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square">
+</p>
+
 Hermes is a **modular framework** for node.js to make gRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
