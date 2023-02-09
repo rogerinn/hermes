@@ -36,6 +36,7 @@ ranging all the way **from college work to corporate level projects**.
 - [Roadmap](#roadmap)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
 - [Contributors](#contributors)
+- [We thank these people](#we-thank-these-people)
 
 
 ## Introduction
@@ -84,3 +85,13 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
   - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
   - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
+
+## We thank these people
+
+- Andre Junior
+- Cibelli Oliveira
+- Gabriele Jorge
+- Gutem
+- Janaina Centini
+- Marcela Silva
+- Melissa Kilpp
