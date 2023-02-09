@@ -31,16 +31,10 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Introduction](#introduction)
 - [Our motivations](#our-motivations)
-- [How it works](#how-it-works)
-- [Why should you use Hermes?](#why-should-you-use-hermes)
-- [Use cases](#use-cases)
-- [Features](#features)
-- [Technologies used](#technologies-used)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Roadmap](#roadmap)
 - [Contributors](#contributors)
-- [We thank these people](#we-thank-these-people)
 
 
 ## Introduction
