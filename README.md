@@ -38,6 +38,11 @@ Hermes' core features, being fully compatible with gRPC, are:
 - High Performance
 - Trustworthy APIs
 
+<br>
+<h1 align="center">
+ <img src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
+</h1>
+
 ## Motivations and premises
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
