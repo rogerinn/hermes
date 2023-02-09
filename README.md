@@ -41,7 +41,7 @@ ranging all the way **from college work to corporate level projects**.
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
-By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
+By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications' handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
 
 Hermes' core features, being fully compatible with gRPC, are:
 
