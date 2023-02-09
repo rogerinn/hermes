@@ -57,4 +57,5 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ## Contributors
 
  - rogerinn - Rogério Junior.
- - Zorazzy  - Melissa Kilpp.
+ - Zorazzy - Melissa Kilpp.
+
