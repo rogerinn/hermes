@@ -5,12 +5,12 @@
 
 <div align="center">
 
-<p align="center">
-   <img src="https://img.shields.io/npm/v/hermes-queue?color=blue&style=flat-square">
-  <img src="https://img.shields.io/github/repo-size/rogerinn/hermes?style=flat-square">
-  <img src="https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square">
-   <img src="https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square">
-</p>
+  ![npm](https://img.shields.io/npm/v/hermes-queue?color=blue&style=flat-square)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/rogerinn/hermes?color=blue&style=flat-square)
+  ![GitHub issues](https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square)
+
+<br>
 
 Hermes is a **modular framework** for node.js to make gRPC APIs.
 
