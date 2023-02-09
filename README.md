@@ -72,11 +72,7 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 <br>
 
-## Roadmap
-
 ## Contributors
 
   - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
   - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
-
-## We thank these people
