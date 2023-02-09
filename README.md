@@ -34,6 +34,7 @@ ranging all the way **from college work to corporate level projects**.
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Roadmap](#roadmap)
+- [Be a part of our comunity!](#be-a-part-of-our-community)
 - [Contributors](#contributors)
 
 
@@ -71,6 +72,13 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 <img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073368645130006538/branch_flow.png" width="700">
 
 <br>
+
+<div align="center">
+
+## Be a part of our community!
+
+<a href=https://discord.gg/2SxVXAma><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
+</div>
 
 ## Contributors
 
