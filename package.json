@@ -1,7 +1,7 @@
 {
   "name": "hermes",
-  "version": "0.4.0",
-  "description": "<h1 align=\"center\">\r   <img src=\"https://media.discordapp.net/attachments/638203747608166442/1037551642482053150/hermes-logo-v.1.png\" alt=\"Hermes\" width=\"450\">\r </h1>",
+  "version": "0.5.0",
+  "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/rogerinn/hermes.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "grpc",
+    "nodejs",
+    "typescript",
+    "api",
+    "mensageria",
+    "message-broker",
+    "message-queue",
+    "framework"
+  ],
+  "author": "rogerinn | Zorazzy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rogerinn/hermes/issues"
