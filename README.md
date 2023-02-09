@@ -68,7 +68,7 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 ## Architecture
 
-<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073362191425740880/arch_test.png" width="700">
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073378211364356220/arch_test1.png" width="900">
 
 <br>
 
