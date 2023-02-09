@@ -29,21 +29,15 @@ ranging all the way **from college work to corporate level projects**.
 </div>
 
 ## Table of contents
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Our motivations](#our-motivations)
-- [How it works](#how-it-works)
-- [Why should you use Hermes?](#why-should-you-use-hermes)
-- [Use cases](#use-cases)
-- [Features](#features)
-- [Technologies used](#technologies-used)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Roadmap](#roadmap)
 - [Contributors](#contributors)
-- [We thank these people](#we-thank-these-people)
 
 
-## Overview
+## Introduction
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
@@ -78,11 +72,7 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 <br>
 
-## Roadmap
-
 ## Contributors
 
   - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
   - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
-
-## We thank these people
