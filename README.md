@@ -23,7 +23,9 @@ ranging all the way **from college work to corporate level projects**.
 <br />
 
 <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
- <br>
+
+<br>
+
 </div>
 
 ## Table of contents
@@ -55,25 +57,18 @@ Hermes' core features, being fully compatible with gRPC, are:
 - Trustworthy APIs
 
 <br>
+
 <img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
 
 ## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
 
-## How it works
-
-## Why should you use Hermes?
-
-## Use cases
-
-## Features
-
-## Technologies used
-
-## Architecture
-
 ## Branch flow
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073348806227271820/branch_flow.png" width="900">
+
+<br>
 
 ## Roadmap
 
