@@ -23,17 +23,6 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Overview](#overview)
 - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-- [Use cases](#use-cases)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)    
-- [Technologies used](#technologies-used)
-- [Branch flow](#branch-flow)
-- [Architecture](#architecture)
-- [Design system](#design-system)
-- [Standard recommendations](#standard-recommendations)
-- [Roadmap](#roadmap)
 - [Contributors](#contributors)
 
 
