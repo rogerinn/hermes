@@ -18,7 +18,8 @@ We follow a *documentation first* philosophy, with the objective of *quality del
 ranging all the way **from college work to corporate level projects**.
 
 [Overview](#overview) •
-[Contributors](#contributors)
+[Contributors](#contributors) •
+[External documentation](https://hermes-project-1.gitbook.io/untitled/)
 
 <h1 align="center">
  <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
