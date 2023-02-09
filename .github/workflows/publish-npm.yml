@@ -15,8 +15,8 @@ jobs:
             - name: 🟢 node
               uses: actions/setup-node@v3
               with:
-                  node-version: 16
-                  registry-url: https://npm.pkg.github.com/
+                  node-version: '16.x'
+                  registry-url: 'https://registry.npmjs.org'
             - name: Configure npm
               run: npm ci
             - name: Publish
