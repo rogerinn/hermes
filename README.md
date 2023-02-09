@@ -5,6 +5,12 @@
 
 <div align="center">
 
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/rogerinn/hermes?style=flat-square">
+  <img src="https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square">
+   <img src="https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square">
+</p>
+
 Hermes is a **modular framework** for node.js to make gRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
@@ -37,6 +43,11 @@ Hermes' core features, being fully compatible with gRPC, are:
 - Multi-language communication
 - High Performance
 - Trustworthy APIs
+
+<br>
+<h1 align="center">
+ <img src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
+</h1>
 
 ## Motivations and premises
 
