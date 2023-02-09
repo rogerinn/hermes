@@ -1,6 +1,6 @@
 {
-  "name": "hermes-queue",
-  "version": "0.8.0",
+  "name": "@rogerinn/hermes-queue",
+  "version": "0.8.1",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/rogerinn/hermes#readme",
   "publishConfig": {
-    "rogerinn:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com:rogerinn"
   }
 }
