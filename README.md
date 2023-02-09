@@ -1,11 +1,12 @@
+---
+description: Hermes is a modular framework for node.js to make gRPC APIs.
+---
 
-<h1 align="center">
-  <img src="https://media.discordapp.net/attachments/638203747608166442/1037551642482053150/hermes-logo-v.1.png" alt="Hermes" width="450">
-</h1>
+# Hermes project
 
-<div align="center">
+We follow a _documentation first_ philosophy, with the objective of _quality delivery_ focusing on the _developer’s experience_.\
+Hermes is a tool made _by devs for all devs_, ranging all the way **from college work to corporate level projects**.
 
-Hermes is a **modular framework** for node.js to make gRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
 ranging all the way **from college work to corporate level projects**.
@@ -24,6 +25,7 @@ ranging all the way **from college work to corporate level projects**.
 - [Motivations and premises](#motivations-and-premises)
 - [Contributors](#contributors)
 
+<figure><img src="https://media.discordapp.net/attachments/638203747608166442/1037591811390197770/carbon_7.png?width=1253&#x26;height=676" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -33,17 +35,16 @@ By acting simultaneously as **the bridge for publisher and subscriber communicat
 
 Hermes' core features, being fully compatible with gRPC, are:
 
-- Easy integration
-- Multi-language communication
-- High Performance
-- Trustworthy APIs
+* Easy integration
+* Multi-language communication
+* High Performance
+* Trustworthy APIs
 
 ## Motivations and premises
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
 
-
 ## Contributors
 
-  - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
-  - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
+* [rogerinn](https://github.com/rogerinn) - Rogério Junior.
+* [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
