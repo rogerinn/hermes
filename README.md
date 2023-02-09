@@ -66,7 +66,7 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 ## Branch flow
 
-<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073348806227271820/branch_flow.png" width="900">
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073368645130006538/branch_flow.png" width="700">
 
 <br>
 
