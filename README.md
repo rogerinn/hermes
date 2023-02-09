@@ -33,7 +33,6 @@ ranging all the way **from college work to corporate level projects**.
 - [Our motivations](#our-motivations)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
-- [Roadmap](#roadmap)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
 - [Contributors](#contributors)
 - [We thank these people](#we-thank-these-people)
