@@ -28,6 +28,7 @@ ranging all the way **from college work to corporate level projects**.
 
 ## Table of contents
 - [Overview](#overview)
+- [Our philosophy]()
 - [Motivations and premises](#motivations-and-premises)
 - [Contributors](#contributors)
 
@@ -46,7 +47,7 @@ Hermes' core features, being fully compatible with gRPC, are:
 - Trustworthy APIs
 
 <br>
-<img align="center" src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
 
 ## Motivations and premises
 
