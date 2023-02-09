@@ -5,7 +5,7 @@
 
 <div align="center">
 
-Hermes is a **modular framework** for node.js to make gRPC APIs.
+Hermes is a **modular framework** for node.js to make GRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
 ranging all the way **from college work to corporate level projects**.
@@ -23,32 +23,12 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Overview](#overview)
 - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-- [Use cases](#use-cases)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)    
-- [Technologies used](#technologies-used)
-- [Branch flow](#branch-flow)
-- [Architecture](#architecture)
-- [Design system](#design-system)
-- [Standard recommendations](#standard-recommendations)
-- [Roadmap](#roadmap)
 - [Contributors](#contributors)
 
 
 ## Overview
 
-Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
-
-By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications' handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
-
-Hermes' core features, being fully compatible with gRPC, are:
-
-- Easy integration
-- Multi-language communication
-- High Performance
-- Trustworthy APIs
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line
 
 ## Motivations and premises
 
@@ -57,4 +37,4 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ## Contributors
 
  - rogerinn - Rogério Junior.
- - Zorazzy  - Melissa Kilpp.
+ - Zorazzy - Melissa Kilpp.
