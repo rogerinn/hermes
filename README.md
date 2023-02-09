@@ -6,6 +6,7 @@
 <div align="center">
 
 <p align="center">
+   <img src="https://img.shields.io/npm/v/hermes-queue?color=blue&style=flat-square">
   <img src="https://img.shields.io/github/repo-size/rogerinn/hermes?style=flat-square">
   <img src="https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square">
    <img src="https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square">
