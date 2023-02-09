@@ -1,19 +1,15 @@
-# README
+---
+description: Hermes is a modular framework for node.js to make gRPC APIs.
+---
 
-Hermes is a **modular framework** for node.js to make gRPC APIs.
+# Hermes project
 
 We follow a _documentation first_ philosophy, with the objective of _quality delivery_ focusing on the _developer’s experience_.\
 Hermes is a tool made _by devs for all devs_, ranging all the way **from college work to corporate level projects**.
 
-[Overview](./#overview) • [Use cases](./#use-cases) • [Contributors](./#contributors)
+
 
 <figure><img src="https://media.discordapp.net/attachments/638203747608166442/1037591811390197770/carbon_7.png?width=1253&#x26;height=676" alt=""><figcaption></figcaption></figure>
-
-## Table of contents
-
-* [Overview](./#overview)
-* [Motivations and premises](./#motivations-and-premises)
-* [Contributors](./#contributors)
 
 ## Overview
 
