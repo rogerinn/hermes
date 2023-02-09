@@ -29,7 +29,7 @@ ranging all the way **from college work to corporate level projects**.
 </div>
 
 ## Table of contents
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Our motivations](#our-motivations)
 - [How it works](#how-it-works)
 - [Why should you use Hermes?](#why-should-you-use-hermes)
@@ -43,7 +43,7 @@ ranging all the way **from college work to corporate level projects**.
 - [We thank these people](#we-thank-these-people)
 
 
-## Overview
+## Introduction
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
