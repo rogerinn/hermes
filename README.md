@@ -23,17 +23,6 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Overview](#overview)
 - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-- [Use cases](#use-cases)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)    
-- [Technologies used](#technologies-used)
-- [Branch flow](#branch-flow)
-- [Architecture](#architecture)
-- [Design system](#design-system)
-- [Standard recommendations](#standard-recommendations)
-- [Roadmap](#roadmap)
 - [Contributors](#contributors)
 
 
@@ -44,22 +33,6 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ## Motivations and premises
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-## Use cases
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-## Technologies used
-
-## Branch flow
-
-## Architecture
-
-## Design system
-
-## Standard recommendations
-
-## Roadmap
 
 ## Contributors
 
