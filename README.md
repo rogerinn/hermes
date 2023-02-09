@@ -12,7 +12,7 @@ ranging all the way **from college work to corporate level projects**.
 
 [Overview](#overview) •
 [Use cases](#use-cases) •
-[Architecture](#architecture)
+[Contributors](#contributors)
 
 <h1 align="center">
  <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
