@@ -46,5 +46,5 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 ## Contributors
 
-  - rogerinn - Rogério Junior.
-  - Zorazzy - Melissa Kilpp
+  - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
+  - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
