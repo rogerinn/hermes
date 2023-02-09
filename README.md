@@ -5,12 +5,11 @@
 
 <div align="center">
 
+  ![GitHub package.json version](https://img.shields.io/github/package-json/v/rogerinn/hermes?color=blue&label=version&style=flat-square)
   ![npm](https://img.shields.io/npm/v/hermes-queue?color=blue&style=flat-square)
   ![GitHub repo size](https://img.shields.io/github/repo-size/rogerinn/hermes?color=blue&style=flat-square)
   ![GitHub issues](https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square)
   ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square)
-
-<br>
 
 Hermes is a **modular framework** for node.js to make gRPC APIs.
 
@@ -21,10 +20,10 @@ ranging all the way **from college work to corporate level projects**.
 [Contributors](#contributors) •
 [External documentation](https://hermes-project-1.gitbook.io/untitled/)
 
-<h1 align="center">
- <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
- <br><br />
-</h1>
+<br />
+
+<img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
+ <br>
 </div>
 
 ## Table of contents
@@ -47,9 +46,7 @@ Hermes' core features, being fully compatible with gRPC, are:
 - Trustworthy APIs
 
 <br>
-<h1 align="center">
- <img src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
-</h1>
+<img align="center" src="https://cdn.discordapp.com/attachments/638203747608166442/1073241370531213362/observer.png" width="900">
 
 ## Motivations and premises
 
