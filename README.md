@@ -61,6 +61,15 @@ Hermes' core features, being fully compatible with gRPC, are:
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
 
+The main premises Hermes was based on are:
+
+- **DX (Development Experience)**
+- **Security**
+- **Scalability**
+- **Optimization**
+
+<br>
+
 ## Architecture
 
 <img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073378211364356220/arch_test1.png" width="900">
