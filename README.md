@@ -78,7 +78,7 @@ The main premises Hermes was based on are:
 
 - Usually, in the making of an API, you'd need to integrate a variety of different tools. Not with Hermes! What you have is what you need. Hermes' architecture is decoupled, making integrations a whole lot easier. Never again spend your precious time on unnecessarily complicated processes.
 
-### **Contract automatization**
+### **Contract automation**
 
 - No need to build manually any machine-to-machine communication. Hermes is fully automated.
 
