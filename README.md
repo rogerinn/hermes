@@ -125,6 +125,8 @@ You'll have a compilation of all features and functionalities needed at your dis
 - **Health check**
 - **Health point**
 - **Protobuff compiler**
+- **Server-client implementation**
+- **Server-side streaming**
 
 ## Architecture
 
