@@ -33,6 +33,7 @@ ranging all the way **from college work to corporate level projects**.
 - [Our motivations](#our-motivations)
 - [Why should you use Hermes?](#why-should-you-use-hermes)
 - [Features](#features)
+- [Technologies used](#technologies-used)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
@@ -127,6 +128,22 @@ You'll have a compilation of all features and functionalities needed at your dis
 - **Protobuff compiler**
 - **Server-client implementation**
 - **Server-side streaming**
+
+<br>
+
+## Technologies used
+| Technologies        | Description                                                      | Version        |
+| :---                |:---                                                             |:---:           |
+| [TypeScript](https://www.typescriptlang.org/docs/)      | Utilizado no projeto para montar toda estrutura da biblioteca, arquitetura, comunicação, tipagens e exportação das funcionalidades     | latest version |
+| [NodeJs](https://nodejs.org/en/docs/)          | Utilizado como linguagem base de todo o projeto     | latest version |
+| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/)            | Mecanismo de comunicação RPC    | latest version |
+| [ProtoBuf](https://protobuf.dev/programming-guides/)        | Mecanismo de criação de contratos para comunicação maquina para maquina    | latest version |
+| [RxJs](https://rxjs.dev/guide/overview)            | Ferramenta para gerenciamento de notificações e observadores     | latest version |
+| [Redis](https://redis.io/docs/)           | Ferramenta utilizada para gerenciamento de cache     | latest version |
+| [Rust](https://doc.rust-lang.org/std/index.html)            | Linguagem utilizada para criação dos modulos de segurança, compiladores, multithreading e gerenciamento de memoria   | latest version |
+| [NPM](https://docs.npmjs.com/)             | Gerenciador de pacotes utilizado para publicar os pacotes e biblioteca    | latest version |
+| [GitHub Actions](https://docs.github.com/en/actions)  | Esteira de CD/CI e monitoramento de versões    | latest version |
+<br>
 
 ## Architecture
 
