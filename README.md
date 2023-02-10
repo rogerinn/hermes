@@ -31,6 +31,7 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Introduction](#introduction)
 - [Our motivations](#our-motivations)
+- [Why should you use Hermes?](#why-should-you-use-hermes)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
@@ -71,6 +72,48 @@ The main premises Hermes was based on are:
 
 <br>
 
+## Why should you use Hermes?
+
+### **Development cost**
+
+- Usually, in the making of an API, you'd need to integrate a variety of different tools. Not with Hermes! What you have is what you need. Hermes' architecture is decoupled, making integrations a whole lot easier. Never again spend your precious time on unnecessarily complicated processes.
+
+### **Contract automation**
+
+- No need to build manually any machine-to-machine communication. Hermes is fully automated.
+
+### **Security**
+
+- You are safe with us! Hermes was thought out for security: its security module is programmed with Rust to reduce memory issues and common vulnerabilities. Plus, all communication is encrypted and authenticated with symmetrical signatures.
+
+### **Compatibility**
+
+- Compatible with ***ANY*** systems: desktop, web, mobile, embedded. You are the boss!
+
+### **Availability**
+
+- Hermes has many functionalities to ensure 24/7 availability for all your needs, including (but not limited to) **monitoring, health check, health point, and logging**. You will never be left in the dark.
+
+### **Productivity**
+
+- Hermes will save you time, money, and stress *(we all know we need it)*.
+
+### **Scalability**
+
+- Hermes has native integration with tools for CD/CI and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
+With only a few clicks, you can scale your application and avoid the dreadful problems of timeout or too many simultaneous users.
+
+### **Extensibility with native and/or third party tools**
+
+- Think of Hermes not as a marriage but as a "friends with benefits" relationship<br>
+You'll have a compilation of all features and functionalities needed at your disposal with no strings attached. Operate Hermes by itself or with external assistance alongside it, use it as it is or go crazy with customizations: your experience is what matters.
+
+<br>
+
+<u>*If you are unhappy after your experience with Hermes, we will give you all your money back!</u> (Obs. We are open source)*
+
+<br>
+
 ## Features
 
 - **Authentication**
@@ -82,6 +125,8 @@ The main premises Hermes was based on are:
 - **Health check**
 - **Health point**
 - **Protobuff compiler**
+- **Server-client implementation**
+- **Server-side streaming**
 
 ## Architecture
 
