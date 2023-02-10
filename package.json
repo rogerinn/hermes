@@ -1,6 +1,6 @@
 {
   "name": "hermes-queue",
-  "version": "0.13.1",
+  "version": "0.17.0",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "framework"
   ],
   "author": "rogerinn | Zorazzy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rogerinn/hermes/issues"
   },

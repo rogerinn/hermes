@@ -31,6 +31,9 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Introduction](#introduction)
 - [Our motivations](#our-motivations)
+- [Why should you use Hermes?](#why-should-you-use-hermes)
+- [Features](#features)
+- [Technologies used](#technologies-used)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
@@ -60,6 +63,87 @@ Hermes' core features, being fully compatible with gRPC, are:
 ## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
+
+The main premises Hermes was based on are:
+
+- **DX (Development Experience)**
+- **Security**
+- **Scalability**
+- **Optimization**
+
+<br>
+
+## Why should you use Hermes?
+
+### **Development cost**
+
+- Usually, in the making of an API, you'd need to integrate a variety of different tools. Not with Hermes! What you have is what you need. Hermes' architecture is decoupled, making integrations a whole lot easier. Never again spend your precious time on unnecessarily complicated processes.
+
+### **Contract automation**
+
+- No need to build manually any machine-to-machine communication. Hermes is fully automated.
+
+### **Security**
+
+- You are safe with us! Hermes was thought out for security: its security module is programmed with Rust to reduce memory issues and common vulnerabilities. Plus, all communication is encrypted and authenticated with symmetrical signatures.
+
+### **Compatibility**
+
+- Compatible with ***ANY*** systems: desktop, web, mobile, embedded. You are the boss!
+
+### **Availability**
+
+- Hermes has many functionalities to ensure 24/7 availability for all your needs, including (but not limited to) **monitoring, health check, health point, and logging**. You will never be left in the dark.
+
+### **Productivity**
+
+- Hermes will save you time, money, and stress *(we all know we need it)*.
+
+### **Scalability**
+
+- Hermes has native integration with tools for CD/CI and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
+With only a few clicks, you can scale your application and avoid the dreadful problems of timeout or too many simultaneous users.
+
+### **Extensibility with native and/or third party tools**
+
+- Think of Hermes not as a marriage but as a "friends with benefits" relationship<br>
+You'll have a compilation of all features and functionalities needed at your disposal with no strings attached. Operate Hermes by itself or with external assistance alongside it, use it as it is or go crazy with customizations: your experience is what matters.
+
+<br>
+
+<u>*If you are unhappy after your experience with Hermes, we will give you all your money back!</u> (Obs. We are open source)*
+
+<br>
+
+## Features
+
+- **Authentication**
+- **Caching**
+- **Logging**
+- **Throttling**
+- **Debouncing**
+- **Message-broker**
+- **Health check**
+- **Health point**
+- **Protobuff compiler**
+- **Server-client implementation**
+- **Server-side streaming**
+
+<br>
+
+## Technologies used
+| Technologies        | Description                                                      | Version        |
+| :---                |:---                                                             |:---:           |
+| [TypeScript](https://www.typescriptlang.org/docs/)      | Utilizado no projeto para montar toda estrutura da biblioteca, arquitetura, comunicação, tipagens e exportação das funcionalidades     | latest version |
+| [NodeJs](https://nodejs.org/en/docs/)          | Utilizado como linguagem base de todo o projeto     | latest version |
+| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/)            | Mecanismo de comunicação RPC    | latest version |
+| [ProtoBuf](https://protobuf.dev/programming-guides/)        | Mecanismo de criação de contratos para comunicação maquina para maquina    | latest version |
+| [RxJs](https://rxjs.dev/guide/overview)            | Ferramenta para gerenciamento de notificações e observadores     | latest version |
+| [Redis](https://redis.io/docs/)           | Ferramenta utilizada para gerenciamento de cache     | latest version |
+| [Rust](https://doc.rust-lang.org/std/index.html)            | Linguagem utilizada para criação dos modulos de segurança, compiladores, multithreading e gerenciamento de memoria   | latest version |
+| [NPM](https://docs.npmjs.com/)             | Gerenciador de pacotes utilizado para publicar os pacotes e biblioteca    | latest version |
+| [GitHub Actions](https://docs.github.com/en/actions)  | Esteira de CD/CI e monitoramento de versões    | latest version |
+<br>
 
 ## Architecture
 
