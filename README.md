@@ -31,6 +31,7 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Introduction](#introduction)
 - [Our motivations](#our-motivations)
+- [Features](#features)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
@@ -69,6 +70,18 @@ The main premises Hermes was based on are:
 - **Optimization**
 
 <br>
+
+## Features
+
+- **Authentication**
+- **Caching**
+- **Logging**
+- **Throttling**
+- **Debouncing**
+- **Message-broker**
+- **Health check**
+- **Health point**
+- **Protobuff compiler**
 
 ## Architecture
 
