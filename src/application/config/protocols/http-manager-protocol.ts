@@ -1,9 +1,11 @@
-import { Server, Iloadproto, Istart, IaddService, Ihandlers  } from "../protocols/index";
+import { Server, Iloadproto, Istart, IaddService, Ihandlers, Iclient  } from "../protocols/index";
 
 export interface IhttpManager {
     _server: Server
+    _client: any
     loadproto: Iloadproto
     addService: IaddService
     handlers: Ihandlers
-    start: Istart
+    start: Istart, 
+    client: Iclient
 }
