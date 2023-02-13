@@ -47,16 +47,18 @@ Hermes is a modular framework for node.js based on gRPC that works as a Message 
 
 By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications' handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
 
+<br>
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
+
+<br>
+
 Hermes' core features, being fully compatible with gRPC, are:
 
 - Easy integration
 - Multi-language communication
 - High Performance
 - Trustworthy APIs
-
-<br>
-
-<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
 
 <br>
 
