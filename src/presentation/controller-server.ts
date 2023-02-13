@@ -6,4 +6,5 @@ export const hermes: Hermes = ({
     handlers: httpManager.handlers,
     addService: httpManager.addService, 
     start: httpManager.start,
+    client: httpManager.client
 })
