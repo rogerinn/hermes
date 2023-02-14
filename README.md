@@ -103,7 +103,7 @@ The main premises Hermes was based on are:
 
 ### **Scalability**
 
-- Hermes has native integration with tools for CD/CI and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
+- Hermes has native integration with tools for CI/CD and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
 With only a few clicks, you can scale your application and avoid the dreadful problems of timeout or too many simultaneous users.
 
 ### **Extensibility with native and/or third party tools**
