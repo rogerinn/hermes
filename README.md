@@ -108,7 +108,7 @@ With only a few clicks, you can scale your application and avoid the dreadful pr
 
 ### **Extensibility with native and/or third party tools**
 
-- Think of Hermes not as a marriage but as a "friends with benefits" relationship<br>
+- Think of Hermes not as a marriage but as a "friends with benefits" relationship.<br>
 You'll have a compilation of all features and functionalities needed at your disposal with no strings attached. Operate Hermes by itself or with external assistance alongside it, use it as it is or go crazy with customizations: your experience is what matters.
 
 <br>
