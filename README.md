@@ -138,7 +138,7 @@ You'll have a compilation of all features and functionalities needed at your dis
 | :---                                                    |:---                                                                                                                               |:---:           |
 | [TypeScript](https://www.typescriptlang.org/docs/)      | Sole language used in the structuring of the library, architecture, communication, type checking, and functionality exporting     | latest version |
 | [NodeJs](https://nodejs.org/en/docs/)                   | Base language for Hermes                                                                                                          | latest version |
-| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
+| [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
 | [ProtoBuf](https://protobuf.dev/programming-guides/)    | Contract creation mechanism for machine-to-machine communication                                                                  | latest version |
 | [RxJs](https://rxjs.dev/guide/overview)                 | Notification and observer handling tool                                                                                           | latest version |
 | [Redis](https://redis.io/docs/)                         | Cache management tool                                                                                                             | latest version |
