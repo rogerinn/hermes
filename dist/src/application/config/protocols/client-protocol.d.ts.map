@@ -1,0 +1,1 @@
+{"version":3,"file":"client-protocol.d.ts","sourceRoot":"","sources":["../../../../../src/application/config/protocols/client-protocol.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AAEjC,MAAM,WAAW,OAAO;IACrB,CAAC,EAAE,EAAE,MAAM,EAAE,IAAI,EAAE,MAAM,EAAE,KAAK,EAAE,GAAG,GAAG,MAAM,CAAC;CACjD"}
