@@ -45,7 +45,7 @@ ranging all the way **from college work to corporate level projects**.
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
-By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications' handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
+By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notification handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
 
 <br>
 
@@ -103,12 +103,12 @@ The main premises Hermes was based on are:
 
 ### **Scalability**
 
-- Hermes has native integration with tools for CD/CI and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
+- Hermes has native integration with tools for CI/CD and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
 With only a few clicks, you can scale your application and avoid the dreadful problems of timeout or too many simultaneous users.
 
 ### **Extensibility with native and/or third party tools**
 
-- Think of Hermes not as a marriage but as a "friends with benefits" relationship<br>
+- Think of Hermes not as a marriage but as a "friends with benefits" relationship.<br>
 You'll have a compilation of all features and functionalities needed at your disposal with no strings attached. Operate Hermes by itself or with external assistance alongside it, use it as it is or go crazy with customizations: your experience is what matters.
 
 <br>
@@ -127,7 +127,7 @@ You'll have a compilation of all features and functionalities needed at your dis
 - **Message-broker**
 - **Health check**
 - **Health point**
-- **Protobuff compiler**
+- **Protobuf compiler**
 - **Server-client implementation**
 - **Server-side streaming**
 
@@ -138,7 +138,7 @@ You'll have a compilation of all features and functionalities needed at your dis
 | :---                                                    |:---                                                                                                                               |:---:           |
 | [TypeScript](https://www.typescriptlang.org/docs/)      | Sole language used in the structuring of the library, architecture, communication, type checking, and functionality exporting     | latest version |
 | [NodeJs](https://nodejs.org/en/docs/)                   | Base language for Hermes                                                                                                          | latest version |
-| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
+| [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
 | [ProtoBuf](https://protobuf.dev/programming-guides/)    | Contract creation mechanism for machine-to-machine communication                                                                  | latest version |
 | [RxJs](https://rxjs.dev/guide/overview)                 | Notification and observer handling tool                                                                                           | latest version |
 | [Redis](https://redis.io/docs/)                         | Cache management tool                                                                                                             | latest version |
