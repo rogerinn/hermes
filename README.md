@@ -127,7 +127,7 @@ You'll have a compilation of all features and functionalities needed at your dis
 - **Message-broker**
 - **Health check**
 - **Health point**
-- **Protobuff compiler**
+- **Protobuf compiler**
 - **Server-client implementation**
 - **Server-side streaming**
 
