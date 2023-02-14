@@ -1,5 +1,5 @@
 import { IhttpManager, loadSync, loadPackageDefinition, 
-        Server, ServerCredentials, UntypedServiceImplementation, Client, ChannelCredentials } from "../protocols"
+        Server, ServerCredentials, UntypedServiceImplementation } from "../protocols"
 
 export const httpManager: IhttpManager = { 
     _server: new Server(),
