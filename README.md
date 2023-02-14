@@ -134,17 +134,17 @@ You'll have a compilation of all features and functionalities needed at your dis
 <br>
 
 ## Technologies used
-| Technologies        | Description                                                      | Version        |
-| :---                |:---                                                             |:---:           |
-| [TypeScript](https://www.typescriptlang.org/docs/)      | Utilizado no projeto para montar toda estrutura da biblioteca, arquitetura, comunicação, tipagens e exportação das funcionalidades     | latest version |
-| [NodeJs](https://nodejs.org/en/docs/)          | Utilizado como linguagem base de todo o projeto     | latest version |
-| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/)            | Mecanismo de comunicação RPC    | latest version |
-| [ProtoBuf](https://protobuf.dev/programming-guides/)        | Mecanismo de criação de contratos para comunicação maquina para maquina    | latest version |
-| [RxJs](https://rxjs.dev/guide/overview)            | Ferramenta para gerenciamento de notificações e observadores     | latest version |
-| [Redis](https://redis.io/docs/)           | Ferramenta utilizada para gerenciamento de cache     | latest version |
-| [Rust](https://doc.rust-lang.org/std/index.html)            | Linguagem utilizada para criação dos modulos de segurança, compiladores, multithreading e gerenciamento de memoria   | latest version |
-| [NPM](https://docs.npmjs.com/)             | Gerenciador de pacotes utilizado para publicar os pacotes e biblioteca    | latest version |
-| [GitHub Actions](https://docs.github.com/en/actions)  | Esteira de CD/CI e monitoramento de versões    | latest version |
+| Technologies                                            | How we used them                                                                                                                  | Version        |
+| :---                                                    |:---                                                                                                                               |:---:           |
+| [TypeScript](https://www.typescriptlang.org/docs/)      | Sole language used in the structuring of the library, architecture, communication, type checking, and functionality exporting     | latest version |
+| [NodeJs](https://nodejs.org/en/docs/)                   | Base language for Hermes                                                                                                          | latest version |
+| [GRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
+| [ProtoBuf](https://protobuf.dev/programming-guides/)    | Contract creation mechanism for machine-to-machine communication                                                                  | latest version |
+| [RxJs](https://rxjs.dev/guide/overview)                 | Notification and observer handling tool                                                                                           | latest version |
+| [Redis](https://redis.io/docs/)                         | Cache management tool                                                                                                             | latest version |
+| [Rust](https://doc.rust-lang.org/std/index.html)        | Employed in the writing of the security modules, compilators, multithreading, and memory management                               | latest version |
+| [NPM](https://docs.npmjs.com/)                          | Package and library publishing                                                                                                    | latest version |
+| [GitHub Actions](https://docs.github.com/en/actions)    | CI/CD pipeline and version monitoring                                                                                             | latest version |
 <br>
 
 ## Architecture
