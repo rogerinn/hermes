@@ -1,1 +1,4 @@
-module.exports = require("./dist/src/presentation/controller-server");
+const hermes = require('./dist/src/presentation/controller-server')
+module.exports = { 
+    Hermes: hermes
+}
