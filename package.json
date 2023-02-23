@@ -1,8 +1,9 @@
 {
   "name": "hermes-queue",
-  "version": "0.19.8",
+  "version": "0.19.11",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
-  "main": "index.js",
+  "main": "./dist/src/index.js",
+  "type": "./dist/src/index.d.ts",
   "scripts": {
     "compile": "npx proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=grpc --outDir=proto/ proto/notes.proto",
     "start:server": "node dist/server.js",
