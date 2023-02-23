@@ -1,6 +1,6 @@
 {
   "name": "hermes-queue",
-  "version": "0.19.8",
+  "version": "0.19.11",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "./dist/src/index.js",
   "type": "./dist/src/index.d.ts",
