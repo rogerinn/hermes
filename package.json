@@ -3,6 +3,7 @@
   "version": "0.19.8",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "./dist/src/index.js",
+  "type": "./dist/src/index.d.ts",
   "scripts": {
     "compile": "npx proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=grpc --outDir=proto/ proto/notes.proto",
     "start:server": "node dist/server.js",
