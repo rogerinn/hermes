@@ -1,4 +1,10 @@
-const hermes = require('../dist/src/presentation/controller-server')
-module.exports = { 
-    Hermes: hermes
+import { hermes } from './presentation/controller-server'
+
+const Hermes = {
+    addService: hermes.addService,
+    loadProto: hermes.addService,
+    start: hermes.start
 }
+
+export { Hermes };
+
