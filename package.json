@@ -38,7 +38,6 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "grpc": "^1.24.11",
-    "hermes-queue": "^0.19.11"
+    "grpc": "^1.24.11"
   }
 }
