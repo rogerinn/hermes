@@ -163,7 +163,7 @@ You'll have a compilation of all features and functionalities needed at your dis
 
 ## Be a part of our community!
 
-<a href=https://discord.gg/2SxVXAma><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
+<a href=https://discord.gg/WGkKMmz6zD><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
 </div>
 
 ## Contributors
