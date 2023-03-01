@@ -7,5 +7,5 @@ const Hermes = {
     client: hermes.client,
 }
 
-export { Hermes};
+export { Hermes };
 
