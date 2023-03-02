@@ -1,4 +1,4 @@
-import type * as grpc from 'grpc';
+import type * as grpc from '@grpc/grpc-js';
 import type { MessageTypeDefinition } from '@grpc/proto-loader';
 import type { NotesClient as _teste_NotesClient, NotesDefinition as _teste_NotesDefinition } from './teste/Notes';
 type SubtypeConstructor<Constructor extends new (...args: any) => any, Subtype> = {
