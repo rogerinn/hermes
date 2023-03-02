@@ -1,3 +1,4 @@
+import { promy } from "../../utils"
 import { IhttpManager, loadSync, loadPackageDefinition, 
         Server, ChannelCredentials, ServerCredentials, UntypedServiceImplementation, promisify, Client } from "../protocols"
 
@@ -24,7 +25,8 @@ export const httpManager: IhttpManager = {
 
     client: (ip: string, port: number, proto: any): any => {
         const client = new proto(`${ip}:${port}`, ChannelCredentials.createInsecure())
-        return client as any
+        promy(client)
+        return client
     } 
 }
 
