@@ -4,6 +4,7 @@ import { IhttpManager, loadSync, loadPackageDefinition,
 export const httpManager: IhttpManager = { 
     _server: new Server(),
     _client: null,
+    _bindAsync: () => promisify(httpManager._server.bindAsync).bind(httpManager._server),
 
     loadproto: <Type>(path: string): Type => (loadPackageDefinition(loadSync(`${path}`)) as unknown as Type),
 
@@ -16,8 +17,7 @@ export const httpManager: IhttpManager = {
     },
 
     start: async (port?: number): Promise<void> => {
-        const bindAsync = promisify(httpManager._server.bindAsync).bind(httpManager._server)
-        await bindAsync(`127.0.0.1:${port || 50051}`, ServerCredentials.createInsecure()),
+        await httpManager._bindAsync()(`127.0.0.1:${port || 50051}`, ServerCredentials.createInsecure())
         httpManager._server.start(),
         console.log('Running server')
     }, 
