@@ -1,2 +1,3 @@
-import { testMatch } from './jest.config'
-export default testMatch = ['**/*.spec.ts']
+import config from './jest.config'
+config.testMatch = ['**/*.spec.ts']
+module.exports = config
