@@ -2,10 +2,11 @@ import { Server, Iloadproto, Istart, IaddService, Ihandlers, Iclient  } from "..
 
 export interface IhttpManager {
     _server: Server
-    _client: any
+    _client: any, 
+    _bindAsync: any,
     loadproto: Iloadproto
     addService: IaddService
     handlers: Ihandlers
     start: Istart, 
-    client: Iclient
+    client: Iclient,
 }

@@ -1,13 +1,17 @@
 {
   "name": "hermes-queue",
-  "version": "0.19.18",
+  "version": "0.21.2",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "compile": "npx proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=grpc --outDir=proto/ proto/notes.proto",
     "start:server": "node dist/server.js",
-    "build:lib": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json"
+    "build:lib": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -30,14 +34,12 @@
   },
   "homepage": "https://github.com/rogerinn/hermes#readme",
   "devDependencies": {
-    "@grpc/proto-loader": "^0.7.4",
-    "@types/long": "^5.0.0",
-    "@types/node": "^18.13.0",
-    "grpc-tools": "^1.12.4",
+    "husky": "^8.0.0",
     "tsc-alias": "1.7.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "grpc": "^1.24.11"
+    "@grpc/grpc-js": "^1.8.11",
+    "husky": "^8.0.3"
   }
 }
