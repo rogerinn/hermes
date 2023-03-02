@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="https://media.discordapp.net/attachments/638203747608166442/1037551642482053150/hermes-logo-v.1.png" alt="Hermes" width="450">
 </h1>

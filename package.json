@@ -11,7 +11,8 @@
     "compile": "npx proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=grpc --outDir=proto/ proto/notes.proto",
     "start:server": "node dist/server.js",
     "build:lib": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "eslint": "eslint '**/*' --fix --ext google  --parser @typescript-eslint/parser --plugin @typescript-eslint"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,11 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.8.11",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.3"
   }
 }
