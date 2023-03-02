@@ -1,4 +1,4 @@
-import { ProtoGrpcType } from '../../proto/notes'
+import { ProtoGrpcType } from '../application/config/proto/notes'
 import { httpManager } from '../application/config/adapters/gRPC-adapter'
 
 const proto = httpManager.loadproto<ProtoGrpcType>(`${ __dirname }../../../proto/notes.proto`)
