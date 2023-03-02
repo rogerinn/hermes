@@ -1,4 +1,4 @@
-import { loadPackageDefinition, Server, ServerCredentials, sendUnaryData } from 'grpc';
+import { loadPackageDefinition, Server, ServerCredentials, sendUnaryData } from '@grpc/grpc-js';
 import { loadSync } from '@grpc/proto-loader'
 import { ProtoGrpcType } from '../proto/notes'
 import { NoteListResponse } from '../proto/teste/NoteListResponse'
