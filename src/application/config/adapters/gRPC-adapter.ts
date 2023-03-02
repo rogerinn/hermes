@@ -1,12 +1,12 @@
 import { IhttpManager, loadSync, loadPackageDefinition, 
-        Server, ServerCredentials, UntypedServiceImplementation, promisify } from "../protocols"
+        Server, ChannelCredentials, ServerCredentials, UntypedServiceImplementation, promisify, Client } from "../protocols"
 
 export const httpManager: IhttpManager = { 
     _server: new Server(),
-    _client: null,
+    _client: Client,
     _bindAsync: () => promisify(httpManager._server.bindAsync).bind(httpManager._server),
 
-    loadproto: <Type>(path: string): Type => (loadPackageDefinition(loadSync(`${path}`)) as unknown as Type),
+    loadproto: <Type>(path: string): Type => (loadPackageDefinition(loadSync(`${ path }`)) as unknown as Type),
 
     handlers: <UntypedServiceImplementation>(handler: UntypedServiceImplementation): any => {
         handler
@@ -22,10 +22,9 @@ export const httpManager: IhttpManager = {
         console.log('Running server')
     }, 
 
-    client: (ip: string, port: string, proto: any): any => {
-        const client = new proto(`${ip}:${port}`)
-        client.ChannelCredentials.createInsecure()
-        httpManager._client = client;
-    }
+    client: (ip: string, port: number, proto: any): any => {
+        const client = new proto(`${ip}:${port}`, ChannelCredentials.createInsecure())
+        return client as any
+    } 
 }
 
