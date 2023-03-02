@@ -14,14 +14,5 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.promisify = void 0;
-__exportStar(require("./grpc-protocol"), exports);
-__exportStar(require("./http-manager-protocol"), exports);
-__exportStar(require("./load-proto-protocol"), exports);
-__exportStar(require("./start-server-protocol"), exports);
-__exportStar(require("./add-service-protocol"), exports);
-__exportStar(require("./handlers-protocol"), exports);
-__exportStar(require("./client-protocol"), exports);
-var util_1 = require("util");
-Object.defineProperty(exports, "promisify", { enumerable: true, get: function () { return util_1.promisify; } });
+__exportStar(require("../presentation/controller-server"), exports);
 //# sourceMappingURL=index.js.map

@@ -1,1 +1,1 @@
-{"version":3,"file":"load-proto-protocol.d.ts","sourceRoot":"","sources":["../../../../../src/application/config/protocols/load-proto-protocol.ts"],"names":[],"mappings":"AACA,MAAM,WAAW,UAAU;IACvB,CAAC,IAAI,EAAE,IAAI,EAAE,MAAM,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI,CAAA;CACvC"}
+{"version":3,"file":"load-proto-protocol.d.ts","sourceRoot":"","sources":["../../../../../src/application/config/protocols/load-proto-protocol.ts"],"names":[],"mappings":"AACA,MAAM,WAAW,UAAU;IACvB,CAAC,IAAI,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI,CAAA;CAC7B"}

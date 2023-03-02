@@ -1,6 +1,6 @@
 // Original file: proto/notes.proto
 
-import type * as grpc from 'grpc'
+import type * as grpc from '@grpc/grpc-js'
 import type { MethodDefinition } from '@grpc/proto-loader'
 import type { Empty as _teste_Empty, Empty__Output as _teste_Empty__Output } from '../teste/Empty';
 import type { NoteFindRequest as _teste_NoteFindRequest, NoteFindRequest__Output as _teste_NoteFindRequest__Output } from '../teste/NoteFindRequest';
