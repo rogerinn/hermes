@@ -4,7 +4,7 @@ import { NoteListResponse } from '../../proto/teste/NoteListResponse'
 import { NoteFindResponse } from '../../proto/teste/NoteFindResponse'
 import { sendUnaryData } from '@grpc/grpc-js'
 
-let notes = [ { id: 1, title: `1`, description: `a`}]
+const notes = [ { id: 1, title: `1`, description: `a`}]
 
 const handlers = ({
     List: (_: any, callback: sendUnaryData<NoteListResponse> ) => {
@@ -16,7 +16,7 @@ const handlers = ({
      }
 })
 
-let proto = hermes.loadProto<ProtoGrpcType>(`${__dirname}../../../proto/notes.proto`)
+const proto = hermes.loadProto<ProtoGrpcType>(`${__dirname}../../../proto/notes.proto`)
 hermes.addService(proto.teste.Notes.service, handlers) 
 hermes.start()
 
