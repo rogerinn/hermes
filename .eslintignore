@@ -1,5 +1,5 @@
 /*.js’
 node_modules
 dist
-proto
 README.md
+src/application/config/proto/*
