@@ -4,7 +4,6 @@
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
-  "type": "module",
   "files": [
     "dist/**"
   ],

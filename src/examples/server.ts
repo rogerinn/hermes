@@ -1,7 +1,7 @@
 import { hermes } from '../presentation'
-import { ProtoGrpcType } from '../../proto/notes'
-import { NoteListResponse } from '../../proto/teste/NoteListResponse'
-import { NoteFindResponse } from '../../proto/teste/NoteFindResponse'
+import { ProtoGrpcType } from '../application/config/proto/notes'
+import { NoteListResponse } from '../application/config/proto/teste/NoteListResponse'
+import { NoteFindResponse } from '../application/config/proto/teste/NoteFindResponse'
 import { sendUnaryData } from '@grpc/grpc-js'
 
 const notes = [ { id: 1, title: `1`, description: `a`}]
