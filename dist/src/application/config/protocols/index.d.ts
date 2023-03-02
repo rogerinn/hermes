@@ -5,4 +5,5 @@ export * from './start-server-protocol';
 export * from './add-service-protocol';
 export * from './handlers-protocol';
 export * from './client-protocol';
+export { promisify } from 'util';
 //# sourceMappingURL=index.d.ts.map
