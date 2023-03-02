@@ -12,7 +12,13 @@
     "start:server": "node dist/server.js",
     "build:lib": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
     "prepare": "husky install",
-    "eslint": "eslint '**/*' --fix --ext google  --parser @typescript-eslint/parser --plugin @typescript-eslint"
+    "eslint": "eslint '**/*' --fix --ext google  --parser @typescript-eslint/parser --plugin @typescript-eslint",
+    "test": "jest --passWithNoTests --runInBand --no-cache",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage",
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
