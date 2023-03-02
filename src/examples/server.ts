@@ -1,7 +1,7 @@
-import { httpManager } from './application/config/adapters/gRPC-adapter'
-import { ProtoGrpcType } from '../proto/notes'
-import { NoteListResponse } from '../proto/teste/NoteListResponse'
-import { NoteFindResponse } from '../proto/teste/NoteFindResponse'
+import { hermes } from '../presentation'
+import { ProtoGrpcType } from '../../proto/notes'
+import { NoteListResponse } from '../../proto/teste/NoteListResponse'
+import { NoteFindResponse } from '../../proto/teste/NoteFindResponse'
 import { sendUnaryData } from '@grpc/grpc-js'
 
 let notes = [ { id: 1, title: `1`, description: `a`}]
@@ -16,7 +16,7 @@ const handlers = ({
      }
 })
 
-let proto = httpManager.loadproto<ProtoGrpcType>(`${__dirname}/../proto/notes.proto`)
-httpManager.addService(proto.teste.Notes.service, handlers) 
-httpManager.start()
+let proto = hermes.loadProto<ProtoGrpcType>(`${__dirname}../../../proto/notes.proto`)
+hermes.addService(proto.teste.Notes.service, handlers) 
+hermes.start()
 
