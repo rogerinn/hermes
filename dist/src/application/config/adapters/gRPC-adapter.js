@@ -37,6 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.httpManager = void 0;
+var utils_1 = require("../../utils");
 var protocols_1 = require("../protocols");
 exports.httpManager = {
     _server: new protocols_1.Server(),
@@ -63,6 +64,7 @@ exports.httpManager = {
     }); },
     client: function (ip, port, proto) {
         var client = new proto("".concat(ip, ":").concat(port), protocols_1.ChannelCredentials.createInsecure());
+        (0, utils_1.promy)(client);
         return client;
     }
 };
