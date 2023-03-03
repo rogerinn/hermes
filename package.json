@@ -1,6 +1,6 @@
 {
   "name": "hermes-queue",
-  "version": "0.22.1",
+  "version": "0.23.0",
   "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -11,7 +11,15 @@
     "compile": "npx proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=grpc --outDir=proto/ proto/notes.proto",
     "start:server": "node dist/server.js",
     "build:lib": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "eslint": "eslint '**/*' --fix --ext google  --parser @typescript-eslint/parser --plugin @typescript-eslint",
+    "test": "jest --passWithNoTests --runInBand --no-cache",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage",
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info",
+    "copy-files": "copyfiles -u 1 src/application/config/proto/**/*.proto dist/src/application/config/proto"
   },
   "repository": {
     "type": "git",
@@ -34,12 +42,20 @@
   },
   "homepage": "https://github.com/rogerinn/hermes#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "copyfiles": "^2.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.0",
+    "jest": "^29.4.3",
+    "lint-staged": "^13.1.2",
+    "ts-jest": "^29.0.5",
     "tsc-alias": "1.7.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.8.11",
-    "husky": "^8.0.3"
+    "@grpc/grpc-js": "^1.8.11"
   }
 }
