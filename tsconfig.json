@@ -27,6 +27,7 @@
     "proto"
   ],
   "include": [
-    "src"
+    "src",
+    "tests"
   ]
 }
