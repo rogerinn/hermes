@@ -7,7 +7,7 @@ export const httpManager: IhttpManager = {
     _client: Client,
     _bindAsync: () => promisify(httpManager._server.bindAsync).bind(httpManager._server),
 
-    loadproto: <Type>(path: string): Type => (loadPackageDefinition(loadSync(`${ path }`)) as unknown as Type),
+    loadproto: <Type>(path: string): Type => (loadPackageDefinition(loadSync(`${ path }`)) as unknown as Type as any),
 
     handlers: <UntypedServiceImplementation>(handler: UntypedServiceImplementation): any => {
         handler

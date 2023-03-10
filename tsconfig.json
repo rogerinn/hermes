@@ -28,6 +28,6 @@
   ],
   "include": [
     "src",
-    "proto"
+    "tests"
   ]
 }
